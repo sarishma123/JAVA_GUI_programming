@@ -13,8 +13,9 @@ public class Copy {
             fout.close();
             
         }
-        catch(Exception ex){
-            System.out.println(ex);
+        catch(Exception e){
+            
+            System.out.println(e);
         }
     }
 }
